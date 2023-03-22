@@ -47,7 +47,7 @@ public class ValidAnagram {
 
         System.out.println(counterMap);
 
-        //todo: not this fancy method.
+        //todo: note this fancy method.
         return counterMap.values().stream().allMatch(value -> value == 0);
     }
 
